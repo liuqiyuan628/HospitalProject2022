@@ -203,6 +203,10 @@
     <Compile Include="Migrations\202203231757241_createshiftentity.Designer.cs">
       <DependentUpon>202203231757241_createshiftentity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202203250344012_test.cs" />
+    <Compile Include="Migrations\202203250344012_test.Designer.cs">
+      <DependentUpon>202203250344012_test.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Appointment.cs" />
@@ -287,7 +291,9 @@
     <Content Include="Views\Department\List.cshtml" />
     <Content Include="Views\Department\New.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -310,6 +316,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202203231757241_createshiftentity.resx">
       <DependentUpon>202203231757241_createshiftentity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203250344012_test.resx">
+      <DependentUpon>202203250344012_test.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

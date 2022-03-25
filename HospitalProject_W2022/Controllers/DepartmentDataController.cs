@@ -36,7 +36,6 @@ namespace HospitalProject_W2022.Controllers
         // GET: api/DepartmentData/FindDepartment/5
         [ResponseType(typeof(Department))]
         [HttpGet]
-        [Authorize(Roles = "Admin")]
 
         public IHttpActionResult FindDepartment(int id)
         {
